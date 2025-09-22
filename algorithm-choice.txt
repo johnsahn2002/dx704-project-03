@@ -1,0 +1,6 @@
+Algorithm Choice: UCB1
+
+The histograms show bounded rewards (max ~5), highly right-skewed distributions with many zeros, and clear arm ranking (Arm 2 best, Arm 1 worst). 
+UCB1 is optimal for bounded rewards and will efficiently identify the best arm through confidence bounds. 
+Epsilon-greedy wastes time exploring randomly, while Thompson Sampling loses information by converting continuous rewards to binary. 
+UCB1's principled exploration quickly focuses on superior arms while avoiding poor ones.
